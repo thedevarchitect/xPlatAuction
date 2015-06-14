@@ -19,7 +19,11 @@ namespace xPlatAuction.Backend.Controllers
         }
 
         // GET tables/TodoItem
+<<<<<<< HEAD
         [AuthorizeLevel(Microsoft.WindowsAzure.Mobile.Service.Security.AuthorizationLevel.Anonymous)]    
+=======
+		[AuthorizeLevel(Microsoft.WindowsAzure.Mobile.Service.Security.AuthorizationLevel.Anonymous)]    
+>>>>>>> Stash
         public IQueryable<TodoItem> GetAllTodoItems()
         {
             return Query();
