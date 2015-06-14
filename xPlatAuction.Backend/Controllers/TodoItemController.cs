@@ -19,7 +19,7 @@ namespace xPlatAuction.Backend.Controllers
         }
 
         // GET tables/TodoItem
-        [AuthorizeLevel(Microsoft.WindowsAzure.Mobile.Service.Security.AuthorizationLevel.Anonymous]    
+        [AuthorizeLevel(Microsoft.WindowsAzure.Mobile.Service.Security.AuthorizationLevel.Anonymous)]    
         public IQueryable<TodoItem> GetAllTodoItems()
         {
             return Query();
